@@ -10,7 +10,6 @@ job :
     - gender
     -
 
-
     - apply job
     - post job
 
@@ -30,11 +29,9 @@ blog:
     - recent posts
     -
 
-  contact
-  home
-  users
-
-
+contact:
+home:
+users:
 
 
 relations:
