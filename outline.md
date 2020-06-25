@@ -33,3 +33,12 @@ blog:
   contact
   home
   users
+
+
+
+
+relations:
+
+    - one to many    [ user - posts ]    - ForeignKey
+    - many to many   [ user - groups ]   - many to many
+    - one to one     [ user - profile ]  - one to one
