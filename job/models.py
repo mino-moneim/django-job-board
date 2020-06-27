@@ -49,9 +49,9 @@ class Apply(models.Model):
 
     job          = models.ForeignKey(Job, related_name='apply_job', on_delete=models.CASCADE)
     name         = models.CharField(max_length=50)
-    email        = models.EmailField()
+    email        = models.EmailField(max_length=100)
     website      = models.URLField(blank=True, null=True)
-    cv           = models.FileField(upload_to='apply')
+    cv           = models.FileField(upload_to='apply/')
     cover_letter = models.TextField(max_length=200)
     created_at   = models.DateTimeField(auto_now=True)
 
