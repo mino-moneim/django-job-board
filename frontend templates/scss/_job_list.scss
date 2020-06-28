@@ -54,7 +54,7 @@
                             margin-top: 15px;
                         }
                         &:hover{
-                            color: #00D363;
+                            color: #5db2ff;
                         }
                     }
                     .links_locat{
@@ -88,7 +88,7 @@
                             width: 40px;
                             height: 40px;
                             @include border-radius(5px);
-                            color: #00D363;
+                            color: #5db2ff;
                             font-size: 14px;
                             line-height: 40px;
                             text-align: center;
@@ -96,7 +96,7 @@
                             background: #EFFDF5;
                             margin-right: 15px;
                             &:hover{
-                                background: #00D363;
+                                background: #5db2ff;
                                 color: #fff;
                             }
                         }
