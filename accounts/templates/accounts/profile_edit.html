@@ -13,16 +13,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 mx-auto">
-
                     <div class="apply_job_form white-bg">
                         <h4>Edit Profile</h4>
                         {% load bootstrap4 %}
                           {# Display a form #}
                         <form method="post" enctype="multipart/form-data">
                             {% csrf_token %}
-                            {% bootstrap_form form %}
+                            {% bootstrap_form userform %}
+                            {% bootstrap_form profileform %}
                             {% buttons %}
-                            <button class="boxed-btn3 w-100" type="submit">Post Now</button>
+                            <button class="boxed-btn3 w-100" type="submit">save changes</button>
                             {% endbuttons %}
                     </div>
                 </div>

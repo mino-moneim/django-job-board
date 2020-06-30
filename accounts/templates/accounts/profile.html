@@ -34,7 +34,9 @@
                             </ul>
                         </div>
                         <div class="p-5">
-                          <a href="#" class="boxed-btn3 w-100">Edit Profile</a>
+                          <a href="{% url 'accounts:profile_edit' %}" class="boxed-btn3 w-100">Edit Profile</a>
+                          <br><br>
+                          <a href="{% url 'jobs:job_list' %}" class="boxed-btn3 w-100">browse job</a>
                         </div>
                     </div>
                 </div>
